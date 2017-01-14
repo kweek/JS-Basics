@@ -29,23 +29,24 @@ isTyler(name);
 getName(name);
 //////////////////PROBLEM 3////////////////////
 
-
-
 //Create a function called welcome that uses your getName function you created in the previous problem to get the users name,
 //then alerts "Welcome, " plus whatever the users name is.
 
   //Code Here
-
+    function welcome(getName){
+      alert("Welcome, " + name);
+      return name;
+}
+welcome(getName);
 
 //////////////////PROBLEM 4////////////////////
-
-
 
 
 //What is the difference between arguments and parameters?
 
   //Answer Here
-
+ A paramater is what is sent through a function
+ An Argument is what is passed when invoking a function.
 
 //////////////////PROBLEM 5////////////////////
 
@@ -55,25 +56,30 @@ getName(name);
 
 
   //Answer Here
-
+false
+0
+''
+null
+undefined
+NaN
 
 
 //////////////////PROBLEM 6////////////////////
 
 
-
 //Create a function called myName that returns your name
 
   //Code Here
-
-
-
+function myName(){
+  return "krissy";
+}
 //Now save the function definition of myName into a new variable called newMyName
 
   //Code Here
+  var newMyName = myName;
 
 //Now alert the result of invoking newMyName
-
+  alert(newMyName());
 
 
 //////////////////PROBLEM 7////////////////////
